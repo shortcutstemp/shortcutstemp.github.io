@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>永盛机电产品制造有限公司</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div id="item">
+        <div style="min-height: calc(100vh - 89px);">
+        <img class="swiper-container" src="./image/header.jpg" alt="">
+        <div class="item-title">{{productItem.title}}</div>
+        <div class="item-type">{{'【' + productItem.type + '】'}}</div>
+        <div class="item-img">
+            <template v-for="(item,i) in productItem.pictures">
+                <img v-if="active == i" :key="i" :src="item" alt="">
+            </template>
+            <div class="thumbnail">
+                <div v-for="(item,i) in productItem.pictures" @mouseover="handleDiv(i)">
+                    <img :key="i" :src="item" alt="">
+                </div>
+            </div>
+            <div class="product-btn">
+                <a class="num" href="#desc">产品介绍</a>
+                <a class="num" href="#para">产品参数</a>
+                <a v-if="productItem.video" class="num" href="#video">产品视频</a>
+            </div>
+        </div>
+        <div class="product-item-n">
+            <h1 id="desc">产品介绍</h1>
+            <img v-if="/\.(jpg|jpeg|png|GIF|JPG|PNG)$/.test(productItem.desc)" :src="productItem.desc" alt="">
+            <span v-else>{{productItem.desc}}</span>
+        </div>
+        <div class="product-item-n">
+            <h1 id="para">产品参数</h1>
+            <img :src="productItem.para" alt="">
+        </div>
+        <div class="product-item-n" v-if="productItem.video">
+            <h1 id="video">产品视频</h1>
+            <div><video :src="productItem.video" controls></video></div>
+        </div>
+    </div>
+    </div>
+    <!-- 版权信息 -->
+    <div class="copyright">
+        © 版权所有 莆田市永盛机电产品制造有限公司
+    </div>
+    <script src="./javascript/vue.js"></script>
+    <script src="./javascript/jquery.js"></script>
+    <script src="./javascript/product.js"></script>
+</body>
+
+</html>

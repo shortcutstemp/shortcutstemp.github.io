@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "title": "Z100圆钢中心孔钻",
+      "type": "数控立式车床",
+      "pictures": [
+        "./image/1/202192784903.jpg",
+        "./image/1/202192785010.jpg",
+        "./image/1/202192791646.jpg"
+      ],
+      "desc": "这是产品的介绍",
+      "para": "./image/1/para.jpg",
+      "video": "./image/1/video.mp4"
+    },
+    {
+      "id": 2,
+      "title": "Z200圆钢中心孔钻",
+      "type": "数控立式车床",
+      "pictures": [
+        "./image/2/202192784903.jpg",
+        "./image/2/202192785010.jpg",
+        "./image/2/202192791646.jpg"
+      ],
+      "desc": "./image/2/desc.jpg",
+      "para": "./image/2/para.jpg",
+      "video": "./image/1/video.mp4"
+    },
+    {
+      "id": 3,
+      "title": "Z300圆钢中心孔钻",
+      "type": "六刀钻铣攻系列",
+      "pictures": [
+        "./image/3/202192784903.jpg",
+        "./image/3/202192785010.jpg",
+        "./image/3/202192791646.jpg"
+      ],
+      "desc": "./image/3/desc.jpg",
+      "para": "./image/3/para.jpg",
+      "video": "./image/1/video.mp4"
+    },
+    {
+        "id": 4,
+        "title": "Z400圆钢中心孔钻",
+        "type": "双头数控钻铣床",
+        "pictures": [
+          "./image/4/202192784903.jpg",
+          "./image/4/202192785010.jpg",
+          "./image/4/202192791646.jpg"
+        ],
+        "desc": "./image/4/desc.jpg",
+        "para": "./image/4/para.jpg",
+        "video": null
+    },
+    {
+        "id": 5,
+        "title": "Z500圆钢中心孔钻",
+        "type": "三头数控钻铣床",
+        "pictures": [
+          "./image/5/202192784903.jpg",
+          "./image/5/202192785010.jpg",
+          "./image/5/202192791646.jpg"
+        ],
+        "desc": "./image/5/desc.jpg",
+        "para": "./image/5/para.jpg",
+        "video": null
+    }
+  ]
