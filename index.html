@@ -12,6 +12,7 @@
 <body>
     <div id="app">
         <div style="min-height: calc(100vh - 89px);">
+        <img class="swiper-container" src="./image/header.jpg" alt="">
         <div class="type-list">
             <div class="type-item" :class="{'current': typeIndex == 0}" @click="typeClick(0)">全部产品</div>
             <div class="type-item" :class="{'current': typeIndex == (i+1)}" v-for="(item, i) in titleList" :key="i"
