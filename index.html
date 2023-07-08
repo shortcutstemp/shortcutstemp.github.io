@@ -22,7 +22,7 @@
             <div class="product-service-bottom">
                 <div class="product-item" v-for="(item, i) in filterData" :key="i" @click="itemClick(item)">
                     <img :src="item.pictures[0]" alt="">
-                    <span style="font-size:30px">{{item.title}}</span>
+                    <span>{{item.title}}</span>
                 </div>
             </div>
         </div>
