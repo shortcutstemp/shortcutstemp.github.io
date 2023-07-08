@@ -1,12 +1,14 @@
 [
     {
       "id": 1,
-      "title": "Z100圆钢中心孔钻",
-      "type": "数控立式车床",
+      "title": "12攻丝机",
+      "type": "攻丝机",
       "pictures": [
-        "./image/1/202192784903.jpg",
-        "./image/1/202192785010.jpg",
-        "./image/1/202192791646.jpg"
+        "./image/12攻丝机/product1.jpg",
+        "./image/12攻丝机/product2.jpg",
+        "./image/12攻丝机/product3.jpg",
+        "./image/12攻丝机/product4.jpg",
+        "./image/12攻丝机/product5.jpg"
       ],
       "desc": "这是产品的介绍",
       "para": "./image/1/para.jpg",
@@ -14,54 +16,156 @@
     },
     {
       "id": 2,
-      "title": "Z200圆钢中心孔钻",
-      "type": "数控立式车床",
+      "title": "16攻丝机",
+      "type": "攻丝机",
       "pictures": [
-        "./image/2/202192784903.jpg",
-        "./image/2/202192785010.jpg",
-        "./image/2/202192791646.jpg"
+        "./image/16攻丝机/product1.jpg",
+        "./image/16攻丝机/product2.jpg",
+        "./image/16攻丝机/product3.jpg",
+        "./image/16攻丝机/product4.jpg"
       ],
-      "desc": "./image/2/desc.jpg",
-      "para": "./image/2/para.jpg",
+      "desc": "这是产品的介绍",
+      "para": "./image/1/para.jpg",
       "video": "./image/1/video.mp4"
     },
     {
       "id": 3,
-      "title": "Z300圆钢中心孔钻",
-      "type": "六刀钻铣攻系列",
+      "title": "24攻丝机",
+      "type": "攻丝机",
       "pictures": [
-        "./image/3/202192784903.jpg",
-        "./image/3/202192785010.jpg",
-        "./image/3/202192791646.jpg"
+        "./image/24攻丝机/product1.jpg",
+        "./image/24攻丝机/product2.jpg",
+        "./image/24攻丝机/product3.jpg",
+        "./image/24攻丝机/product4.jpg"
       ],
-      "desc": "./image/3/desc.jpg",
-      "para": "./image/3/para.jpg",
+      "desc": "这是产品的介绍",
+      "para": "./image/1/para.jpg",
       "video": "./image/1/video.mp4"
     },
     {
-        "id": 4,
-        "title": "Z400圆钢中心孔钻",
-        "type": "双头数控钻铣床",
-        "pictures": [
-          "./image/4/202192784903.jpg",
-          "./image/4/202192785010.jpg",
-          "./image/4/202192791646.jpg"
-        ],
-        "desc": "./image/4/desc.jpg",
-        "para": "./image/4/para.jpg",
-        "video": null
+      "id": 4,
+      "title": "4116钻床",
+      "type": "重型钻床",
+      "pictures": [
+        "./image/4116钻床/product1.jpg",
+        "./image/4116钻床/product2.jpg",
+        "./image/4116钻床/product3.jpg"
+      ],
+      "desc": "这是产品的介绍",
+      "para": "./image/4116钻床/para.jpg"
     },
     {
-        "id": 5,
-        "title": "Z500圆钢中心孔钻",
-        "type": "三头数控钻铣床",
-        "pictures": [
-          "./image/5/202192784903.jpg",
-          "./image/5/202192785010.jpg",
-          "./image/5/202192791646.jpg"
-        ],
-        "desc": "./image/5/desc.jpg",
-        "para": "./image/5/para.jpg",
-        "video": null
+      "id": 5,
+      "title": "4416钻攻两用机",
+      "type": "重型钻床",
+      "pictures": [
+        "./image/4416钻攻两用机/product1.jpg",
+        "./image/4416钻攻两用机/product2.jpg"
+      ],
+      "desc": "这是产品的介绍",
+      "para": "./image/4416钻攻两用机/para.jpg"
+    },
+    {
+      "id": 6,
+      "title": "4916钻床立柱加高",
+      "type": "重型钻床",
+      "pictures": [
+        "./image/4916钻床立柱加高/product1.jpg",
+        "./image/4916钻床立柱加高/product2.jpg"
+      ],
+      "desc": "这是产品的介绍",
+      "para": "./image/4916钻床立柱加高/para.jpg"
+    },
+    {
+      "id": 7,
+      "title": "重型4025钻床",
+      "type": "重型钻床",
+      "pictures": [
+        "./image/重型4025钻床/product1.jpg",
+        "./image/重型4025钻床/product2.jpg",
+        "./image/重型4025钻床/product3.jpg"
+      ],
+      "desc": "这是产品的介绍",
+      "para": "./image/重型4025钻床/para.jpg"
+    },
+    {
+      "id": 8,
+      "title": "珠宝机",
+      "type": "珠宝机",
+      "pictures": [
+        "./image/珠宝机/product1.jpg",
+        "./image/珠宝机/product2.jpg",
+        "./image/珠宝机/product3.jpg",
+        "./image/珠宝机/product4.jpg"
+      ],
+      "desc": "这是产品的介绍",
+      "video": "./image/珠宝机/video.mp4"
+    },
+    {
+      "id": 9,
+      "title": "406C 钻床",
+      "type": "钻床",
+      "pictures": [
+        "./image/406C/product1.jpg",
+        "./image/406C/product2.jpg",
+        "./image/406C/product3.jpg"
+      ],
+      "desc": "这是产品的介绍"
+    },
+    {
+      "id": 10,
+      "title": "ZQ4116 钻床",
+      "type": "钻床",
+      "pictures": [
+        "./image/ZQ4116钻床/product1.jpg",
+        "./image/ZQ4116钻床/product2.jpg",
+        "./image/ZQ4116钻床/product3.jpg"
+      ],
+      "desc": "这是产品的介绍"
+    },
+    {
+      "id": 10,
+      "title": "重型 4125 钻床",
+      "type": "重型钻床",
+      "pictures": [
+        "./image/重型4125钻床/product1.jpg",
+        "./image/重型4125钻床/product2.jpg",
+        "./image/重型4125钻床/product3.jpg"
+      ],
+      "desc": "这是产品的介绍"
+    },
+    {
+      "id": 11,
+      "title": "ZS4116 钻攻两用",
+      "type": "钻攻两用",
+      "pictures": [
+        "./image/ZS4116钻攻两用/product1.jpg",
+        "./image/ZS4116钻攻两用/product2.jpg",
+        "./image/ZS4116钻攻两用/product3.jpg"
+      ],
+      "desc": "这是产品的介绍"
+    },
+    {
+      "id": 12,
+      "title": "ZS4125 钻攻两用",
+      "type": "钻攻两用",
+      "pictures": [
+        "./image/ZS4125钻攻两用/product1.jpg",
+        "./image/ZS4125钻攻两用/product2.jpg"
+      ],
+      "desc": "这是产品的介绍"
+    },
+    {
+      "id": 13,
+      "title": "数控自动钻床",
+      "type": "数控钻床",
+      "pictures": [
+        "./image/数控自动钻床/product1.jpg",
+        "./image/数控自动钻床/product2.jpg",
+        "./image/数控自动钻床/product3.jpg",
+        "./image/数控自动钻床/product4.jpg"
+      ],
+      "desc": "这是产品的介绍",
+      "video": "./image/数控自动钻床/video.mp4"
     }
   ]
