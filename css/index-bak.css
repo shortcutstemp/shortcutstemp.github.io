@@ -35,14 +35,11 @@ body {
     text-align: center;
     align-items: center;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
-/* .product-item:nth-child(even) {
-    margin-left: 4%;
-} */
-
 .product-item img {
+    margin-left: 10px;
     width: 100%;
 }
 
